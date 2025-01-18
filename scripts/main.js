@@ -18,7 +18,7 @@ async function loadMarkdownPost() {
             // Update the page title
             const titleElement = contentElement.querySelector('h1');
             if (titleElement) {
-                document.title = titleElement.textContent + ' - FaraboCoders Blog';
+                document.title = titleElement.textContent + ' - FarabiCoders Blog';
             }
         }
     } catch (error) {
